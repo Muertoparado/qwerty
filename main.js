@@ -1,3 +1,4 @@
-var cadena="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsum praesentium blanditiis saepe tempora ipsam aperiam id doloremque laudantium quae voluptatem accusantium earum"
+var cadena="Lorem m 1"
+var cadena2="Lorem m 2"
 
-console.log(cadena.charAt(2)); /* obtener caracter en la cadena */
+console.log(`${cadena} ${cadena2}`); /* mezcla dos cadenas en una nueva */
