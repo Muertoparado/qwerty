@@ -1,3 +1,4 @@
-var cadena="                Lorem m 1 sdsdsdsd                "
+x=3
 
-console.log(cadena.trim()); /* eliminar espacios en la cadena*/
+/* asigancion de dato  */
+console.log(`el dato aignado a x es eqivalente a : ${x}`)
