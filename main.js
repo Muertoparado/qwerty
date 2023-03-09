@@ -1,3 +1,3 @@
-var cadena="Lorem m 1"
+var cadena="Lorem m 1 sdsdsdsd"
 
-console.log(cadena.padStart(15, "hola")); /* rellena una cadena de texto con mas texto x caracteres */
+console.log(cadena.toUpperCase()); /* devulve la cadena con letras en mayusculas */
