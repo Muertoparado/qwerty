@@ -1,5 +1,5 @@
-x=3
-y=4
+x=prompt("introducir x numero a evaluar")
+y=prompt("introducir y numero a evaluar")
 
 if(x>=y){
     console.log("es mayor o igual ")
