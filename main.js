@@ -1,8 +1,8 @@
 x=3
 y=4
 
-if(x==y){
-    console.log("son iguales los numeros ")
+if(x>=y){
+    console.log("es mayor o igual ")
 }
-/* asigancion estricta de igualdad  */
-console.log(`numeros distintos ${x} !== ${y}`);
+/* asigancion mayor o igual   */
+console.log(`no es mayor o igual ${x} a ${y}`);
