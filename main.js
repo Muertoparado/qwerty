@@ -1,3 +1,3 @@
 var cadena="Lorem m 1"
 
-console.log(cadena.repeat(2)); /* repetir contenido en la cadena de texto  */
+console.log(cadena.padStart(15, "hola")); /* rellena una cadena de texto con mas texto x caracteres */
