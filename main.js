@@ -1,19 +1,32 @@
-/* funcion callbacks() 
+/* Promesas  */
 
-Un callback en JavaScript es una función que se pasa como argumento a otra función, y se ejecuta después de que se completa una acción. Los callbacks son una forma de manejar el flujo de ejecución y el asincronismo en JavaScript.
-*/
+/* new Promise((resolve, reject) => {
+  try {
+    console.log("entro promesa");
+    resolve('La promesa fue exitosa');
+  } catch (error) {
+    reject(error);
+  }
+}); */
 
-function suma(a, b) {
-    return a + b;
-  }
-  
-  function resta(a, b) {
-    return a - b;
-  }
-  
-  function operacion(a, b, callback) {
-    return callback(a, b);
-  }
-  
-  console.log(operacion(5, 3, suma)); // 8
-  console.log(operacion(5, 3, resta)); // 2
+new Promise((resolve,reject)=>{
+    try{
+        console.log("dentro de la promesa");
+        const resultado1 = await promesa1;
+              console.log(resultado1); // Resultado 1
+       
+            /*  const resultado2 = await promesa2;
+            console.log(resultado2); // Resultado 2 */
+             
+            } catch (error) {
+              console.log(error);
+            }
+           
+          }
+          
+          ejemploAsync();
+          
+    }
+
+
+});
