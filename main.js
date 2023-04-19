@@ -1,17 +1,19 @@
-/* funcion callbacks() */
-/* fCallback=()=>{
-    console.log("ESTA LLAMANDO LA FUNCION CALLBACK ");
-};
-llamadoCallback=()=>{
-    console.log("funcion principal");
-    fCallback();
-} */
+/* funcion callbacks() 
 
-const fcall=(op,call)=>{
-    num1=Number(prompt("digite num 1"))
-    num2=Number(prompt("digite num 2"))
-    op=num1+num2
-    call({
-        
-    });
-    }
+Un callback en JavaScript es una función que se pasa como argumento a otra función, y se ejecuta después de que se completa una acción. Los callbacks son una forma de manejar el flujo de ejecución y el asincronismo en JavaScript.
+*/
+
+function suma(a, b) {
+    return a + b;
+  }
+  
+  function resta(a, b) {
+    return a - b;
+  }
+  
+  function operacion(a, b, callback) {
+    return callback(a, b);
+  }
+  
+  console.log(operacion(5, 3, suma)); // 8
+  console.log(operacion(5, 3, resta)); // 2
