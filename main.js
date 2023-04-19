@@ -9,24 +9,17 @@
   }
 }); */
 
-new Promise((resolve,reject)=>{
-    try{
-        console.log("dentro de la promesa");
-        const resultado1 = await promesa1;
-              console.log(resultado1); // Resultado 1
-       
-            /*  const resultado2 = await promesa2;
-            console.log(resultado2); // Resultado 2 */
-             
-            } catch (error) {
-              console.log(error);
-            }
-           
-          }
-          
-          ejemploAsync();
-          
-    }
+async function ejemploAsync() {
+  try {
+    const resultado1 = await promesa1
+      console.log(resultado1); // Resultado 1
+      
+    const resultado2 = await promesa2
+      console.log(resultado2); // Resultado 1
+  
+  } catch (error) {
+    console.log(error);
+  }
+}
 
-
-});
+ejemploAsync();
